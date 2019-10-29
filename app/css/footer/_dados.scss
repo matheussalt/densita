@@ -1,0 +1,53 @@
+.footer-dados ul {
+  display: flex;
+  flex-direction: column;
+
+  li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    line-height: 1.5rem;
+
+    svg {
+      fill: $gold;
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+    }
+
+    span {
+      flex: 1;
+      color: #fff;
+      transition: 0.3s color ease-in-out;
+    }
+
+    &:hover span {
+      color: $gold;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .footer-dados {
+    width: 50%;
+
+    ul {
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      li:nth-of-type(odd) {
+        width: 40%;
+      }
+
+      li:nth-of-type(even) {
+        width: 60%;
+      }
+
+      li:nth-of-type(4) a {
+        align-items: flex-start;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.rodape {
+  background: #e2e3e3;
+  padding: 50vw 0 32px;
+  position: relative;
+
+  p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+
+    a {
+      color: $black;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  img {
+    display: none;
+  }
+
+  .to-top {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    padding: 8px;
+    background-color: $gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+
+    svg {
+      transform: rotate(-90deg);
+      fill: $black;
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .rodape {
+    padding: 15vw 0 32px;
+
+    .to-top {
+      bottom: unset;
+      top: 0;
+      transform: translate(0, -50%);
+      z-index: 1;
+    }
+  }
+}

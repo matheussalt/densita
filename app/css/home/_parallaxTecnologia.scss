@@ -1,0 +1,34 @@
+.parallax-tecnologia {
+  width: 100%;
+  padding: 128px 0;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $black;
+    opacity: 0.75;
+    z-index: -1;
+  }
+
+  .title {
+    text-align: center;
+
+    @extend %fadeUp;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .parallax-tecnologia {
+    padding: 256px 0;
+    background-attachment: fixed;
+  }
+}

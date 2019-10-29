@@ -1,0 +1,55 @@
+.sobre {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: $black;
+}
+
+.sobre-img {
+  width: 100vw;
+  height: 100vw;
+  overflow: hidden;
+
+  @extend %fadeRight;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.sobre-txt {
+  width: 90%;
+  height: 100%;
+  justify-self: center;
+  padding: 64px 0;
+
+  @extend %fadeLeft;
+
+  p {
+    color: #fff;
+  }
+
+  .social-media {
+    margin-top: 16px;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .sobre {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sobre-img {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .sobre-txt {
+    height: auto;
+    align-self: center;
+    max-width: 520px;
+  }
+}

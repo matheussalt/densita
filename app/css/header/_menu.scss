@@ -1,0 +1,81 @@
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translate3d(100%, 0, 0);
+  width: 100vw;
+  height: 100vh;
+  padding: 16px;
+  background-color: $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  transition: 0.8s transform ease-in-out;
+
+  a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 22px;
+    color: $gold;
+    font-weight: bold;
+  }
+
+  &.ativo {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .menu a {
+    font-size: 28px;
+    padding: 16px 0;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .menu {
+    position: static;
+    height: auto;
+    width: 100%;
+    transform: none;
+    background-color: transparent;
+    z-index: 1;
+
+    ul {
+      display: flex;
+    }
+
+    a {
+      font-size: 14px;
+      padding: 16px;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: normal;
+      position: relative;
+      transition: 0.3s color ease-in-out;
+
+      &::before {
+        content: '';
+        width: 0;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        background-color: $gold;
+        transition: 0.3s width ease-in-out;
+      }
+
+      &:hover {
+        color: $gold;
+
+        &::before {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

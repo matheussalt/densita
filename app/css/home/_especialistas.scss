@@ -1,0 +1,109 @@
+.especialistas {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: $gold;
+}
+
+.especialistas-txt {
+  height: 100%;
+  width: 90%;
+  padding: 64px 0;
+  justify-self: center;
+
+  @extend %fadeUp;
+
+  .title {
+    color: #fff;
+  }
+
+  p {
+    color: $black;
+  }
+}
+
+.especialista-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  @extend %fadeUp;
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $black;
+    opacity: 0.64;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .especialista-wrapper {
+    width: 90%;
+    position: absolute;
+    bottom: 64px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    h3 {
+      text-transform: uppercase;
+      font-weight: normal;
+      color: #fff;
+      font-size: 1.2rem;
+      margin-bottom: 16px;
+    }
+
+    .ver-mais {
+      padding: 8px 32px;
+      border: 1px solid #fff;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      letter-spacing: 0.1rem;
+      border-radius: 32px;
+      background-color: transparent;
+      transition: 0.3s background-color, 0.3s color;
+      transition-timing-function: ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #fff;
+        color: $black;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .especialistas {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .especialistas-txt {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .especialistas {
+    grid-template-columns: repeat(3, 1fr);
+
+    .especialistas-txt {
+      grid-column-start: unset;
+      grid-column-end: unset;
+      height: unset;
+      align-self: center;
+      max-width: 385px;
+    }
+  }
+}
