@@ -138,7 +138,7 @@ get_header(); ?>
 <section class="especialistas">
   <div class="especialistas-txt" data-animar>
     <h2 class="title">Os especialistas</h2>
-    <p>À frente da Densitá estão os Dermatologistas Dra. Elisangela Pegas (CRM-SP: 102.060 | RQE: 33.822) e Dr. Felipe
+    <p>À frente da Densitá estão os dermatologistas Dra. Elisangela Pegas (CRM-SP: 102.060 | RQE: 33.822) e Dr. Felipe
       Borba Calixto (CRM-SP: 135.312 | RQE 48.547). Os médicos são Membros da Sociedade Brasileira de Dermatologia
       (SBD), da Sociedade Brasileira de Cirurgia Dermatológica (SBCD) e da Associação Brasileira de Cirurgia da
       Restauração Capilar (ABCRC).
@@ -188,9 +188,10 @@ get_header(); ?>
   <div class="container">
     <h2 class="title" data-animar>AS CAUSAS DA QUEDA DE CABELO</h2>
     <p data-animar>Alopécia é o nome científico dado à queda capilar, que pode ser desencadeada por diversos fatores,
-      internos e externos. Os fios de cabelos podem ser trocados diariamente, em um processo fisiológico e natural do
-      ciclo capilar. No entanto, quando a quantidade de fios em queda é acima do normal, podendo ser notada nos ralos,
-      travesseiros, escovas e roupas, é importante procurar a orientação de um Médico Dermatologista. De forma geral, as
+      internos e
+      externos. OS fios de cabelos podem ser trocados diariamente, em um processo fisiológico e natural do ciclo
+      capilar. No entanto, quando a quantidade de fios em queda é acima do normal, podendo ser notada nos ralos,
+      travesseiros, escovas e roupas, é importante procurar a orientação de um médico dermatologista. De forma geral, as
       causas da queda capilar estão relacionadas à:</p>
 
     <div class="causas-wrapper">
@@ -285,8 +286,9 @@ get_header(); ?>
       <svg width="32" height="32" viewBox="0 0 32 32" data-animar>
         <use xlink:href="#heart"></use>
       </svg>
-      <p data-animar>A consulta com um Dermatologista especializado em Tricologia é fundamental para esclarecer as
-        causas da sua queda capilar e direcionar o melhor tratamento no seu caso.</p>
+      <p data-animar>A consulta com um dermatologista especializado é fundamental para esclarecer as causas da sua queda
+        capilar e
+        direcionar o melhor tratamento no seu caso.</p>
     </div>
   </div>
 </section>
@@ -294,10 +296,11 @@ get_header(); ?>
 <section class="transplante" id="transplante">
   <div class="container">
     <h2 class="title" data-animar>O TRANSPLANTE CAPILAR</h2>
-    <p data-animar>O Transplante Capilar é um dos tratamentos mais eficazes para devolver ao paciente o aspecto estético
-      do cabelo, proporcionando o aumento da autoestima. A cirurgia com a técnica FUE consiste na retirada, uma a uma,
-      das chamadas Unidades Foliculares (UF’s) - agrupamentos de 1 a 4 fios localizados na região posterior da cabeça -
-      e na implantação dessas UF´s de forma minuciosa e estratégica nas áreas calvas do couro cabeludo.</p>
+    <p data-animar>O Transplante Capilar é um dos métodos de tratamento mais eficazes (?) para devolver ao paciente o
+      aspecto
+      estético harmonioso, proporcionando o aumento da autoestima. A cirurgia consiste na retirada, uma a uma, das
+      chamadas Unidades Foliculares (UF’s) - agrupamentos de 1 a 4 fios localizados na região posterior da cabeça - e na
+      implantação dessas UF´s de forma minuciosa e estratégica nas áreas calvas do couro cabeludo.</p>
     <h3 data-animar>Pra quem é indicado?</h3>
 
     <div class="transplante-wrapper">
@@ -315,8 +318,8 @@ get_header(); ?>
           <img src="<?=get_template_directory_URI()?>/img/rsc/indicacao2.png" alt="Transplante Capilar" />
         </div>
 
-        <p>Pacientes que tenham uma área doadora suficiente para a redistribuição dos fios, sem causar falhas nos locais
-          onde as Unidades Foliculares foram retiradas
+        <p> Pacientes que tenham uma área doadora de cabelos suficiente para a redistribuição dos fios, sem causar
+          falhas nos locais onde as Unidades Foliculares foram retiradas
         </p>
       </div>
 
@@ -335,7 +338,7 @@ get_header(); ?>
           <img src="<?=get_template_directory_URI()?>/img/rsc/indicacao4.png" alt="Transplante Capilar" />
         </div>
 
-        <p>Pessoas que tiveram a perda definitiva de fios devido à acidentes, cirurgias, queimaduras ou traumas
+        <p>Pessoas que tiveram a perda definitiva de fios devido à acidentes, cirurgias, queimaduras ou traumas.
         </p>
       </div>
     </div>
@@ -346,10 +349,11 @@ get_header(); ?>
   <div class="container">
     <h2 class="title" data-animar>TÉCNICA FUE - Follicular Unit Extration</h2>
     <p data-animar>A FUE é uma técnica moderna e minuciosa que permite a realização do Transplante Capilar através da
-      coleta individualizada das Unidades Foliculares (UF’s). Neste método, as UF’s são retiradas uma a uma com o
-      auxílio de um equipamento de ponta milimétrica. O método é considerado menos invasivo e proporciona resultados
-      naturais, possibilitando ao paciente utilizar cortes de cabelo curtos sem a percepção de possíveis pequenas
-      cicatrizes pontuadas.
+      coleta
+      individualizada das Unidades Foliculares (UF’s). Neste método, as UF’s são retiradas uma a uma com o auxílio de um
+      equipamento de ponta milimétrica. O método é considerado menos invasivo e proporciona resultados naturais,
+      possibilitando ao paciente utilizar cortes de cabelo curtos sem a percepção de possíveis pequenas cicatrizes
+      pontuadas.
     </p>
   </div>
 </section>
@@ -369,7 +373,7 @@ get_header(); ?>
         <h3>Barba e Sobrancelha</h3>
 
         <p>A retirada de fios do couro cabeludo com a técnica FUE também pode ser eficaz para tratar barbas e/ou
-          sobrancelhas que apresentem falhas.</p>
+          sobrancelhas que apresentam falhas.</p>
       </div>
 
       <div class="beneficios-item" data-animar>
@@ -408,8 +412,10 @@ get_header(); ?>
 
         <h3>Long Hair</h3>
 
-        <p>O Long Hair é um método de Transplante Capilar realizado com os fios longos, permitindo ao paciente ter uma
-          visão temporária do resultado final.</p>
+        <p>O Long Hair é uma técnica que permite que o cabelo seja transplantado com os fios longos. O maior benefício é
+          que
+          o
+          paciente pode ter uma visão imediata do resultado final.</p>
       </div>
 
       <div class="beneficios-item" data-animar>
@@ -421,8 +427,10 @@ get_header(); ?>
 
         <h3>Unshaved</h3>
 
-        <p>Técnica que permite realizar o Transplante Capilar sem a raspagem dos cabelos, proporcionando ao paciente
-          manter sua rotina normal, sem se afastar de seus afazeres diários.</p>
+        <p>Técnica que permite realizar o transplante capilar sem a raspagem do cabelo, permitindo que o paciente
+          mantenha
+          sua
+          rotina normal, sem se afastar de seus afazeres diários.</p>
       </div>
     </div>
   </div>
@@ -453,14 +461,13 @@ get_header(); ?>
     <div class="tecnologia-txt">
       <h2 class="title" data-animar>MODERNIDADE TECNOLÓGICA
         QUE FAZ TODA A DIFERENÇA</h2>
-      <p data-animar>A equipe utiliza um moderno equipamento que permite executar, durante a retirada das Unidades
-        Foliculares na técnica FUE, a rotação, oscilação e vibração com movimentos que podem ser combinados em qualquer
-        sequência, velocidade e tempo.<br /><br />
-
+      <p data-animar>A equipe utiliza um moderno equipamento que permite executar, durante a retirada das unidades
+        foliculares na
+        técnica FUE, a rotação, oscilação e vibração com movimentos que podem ser combinados em qualquer sequência,
+        velocidade e tempo.
 
         Esta tecnologia permite ao cirurgião maior precisão, delicadeza e eficácia durante a retirada das UF´s da área
         doadora, reduzindo o risco de transecção do fio.
-
       </p>
     </div>
   </div>
@@ -484,10 +491,11 @@ get_header(); ?>
         CLÍNICO PARA A MANUTENÇÃO
         DOS RESULTADOS</h2>
       <p data-animar>Após um Transplante Capilar é fundamental realizar o acompanhamento médico, a fim de verificar a
-        evolução pós operatória do paciente ao longo dos anos. Tratamentos feitos em consultório, como o MMP®️ -
-        Microinfusão de Medicamentos na Pele, podem ser indicados para a manutenção do resultado.<br /><br />
+        evolução pós
+        operatória do paciente ao longo dos anos. Tratamentos feitos em consultório, como o MMP®️ - Microinfusão de
+        Medicamentos na Pele, podem ser indicados para a manutenção do resultado.
 
-        Esse procedimento consiste na infusão de ativos estéreis diretamente no couro cabeludo, selecionados de forma
+        Esse procedimento consiste na infusão de ativos estéreis, diretamente, no couro cabeludo, selecionados de forma
         personalizada, para tratar a queda, otimizar o crescimento capilar e acelerar o processo de recuperação
         pós-transplante, além de auxiliar em outras queixas relacionadas à beleza dos fios.
       </p>

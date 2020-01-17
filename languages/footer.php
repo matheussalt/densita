@@ -70,8 +70,8 @@
 
     <div class="instagram">
       <?php
-      $userid = "25541697628";
-      $accessToken = "25541697628.1677ed0.0bf74fd0f90b400abe814f97314d31e2";
+      $userid = "350695077";
+      $accessToken = "350695077.1677ed0.9889e952e42b408c84dc0c103754140b";
   
       function fetchData($url){
         $ch = curl_init();
