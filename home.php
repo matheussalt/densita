@@ -114,23 +114,23 @@ get_header(); ?>
       oferecer o que há de melhor em Transplante Capilar e no tratamento clínico do couro cabeludo e dos cabelos .
     </p>
     <div class="social-media">
-      <a href="https://instagram.com" target="_blank">
+      <a href="https://instagram.com/densita_medicinacapilar/ " target="_blank">
         <svg width="32" height="32" viewBox="0 0 32 32">
           <use xlink:href="#instagram"></use>
         </svg>
       </a>
 
-      <a href="https://facebook.com" target="_blank">
+      <a href="https://facebook.com/densita_medicinacapilar-101196624700518/ " target="_blank">
         <svg width="32" height="32" viewBox="0 0 32 32">
           <use xlink:href="#facebook"></use>
         </svg>
       </a>
 
-      <a href="https://youtube.com" target="_blank">
+      <!-- <a href="https://youtube.com" target="_blank">
         <svg width="32" height="32" viewBox="0 0 32 32">
           <use xlink:href="#youtube"></use>
         </svg>
-      </a>
+      </a> -->
     </div>
   </div>
 </section>
@@ -325,7 +325,8 @@ get_header(); ?>
           <img src="<?=get_template_directory_URI()?>/img/rsc/indicacao3.png" alt="Transplante Capilar" />
         </div>
 
-        <p>Pacientes que sofrem com a alopécia androgenética ou outras doenças do couro cabeludo e que não obtiveram
+        <p>Pacientes que sofrem com a alopécia androgenética (calvície) ou outras doenças do couro cabeludo e que não
+          obtiveram
           sucesso com o tratamento clínico
         </p>
       </div>
@@ -344,10 +345,10 @@ get_header(); ?>
 
 <section class="fue">
   <div class="container">
-    <h2 class="title" data-animar>TÉCNICA FUE - Follicular Unit Extration</h2>
+    <h2 class="title" data-animar>TÉCNICA FUE - Follicular Unit Excision</h2>
     <p data-animar>A FUE é uma técnica moderna e minuciosa que permite a realização do Transplante Capilar através da
       coleta individualizada das Unidades Foliculares (UF’s). Neste método, as UF’s são retiradas uma a uma com o
-      auxílio de um equipamento de ponta milimétrica. O método é considerado menos invasivo e proporciona resultados
+      auxílio de um equipamento de ponta milimétrica. O método é considerado pouco invasivo e proporciona resultados
       naturais, possibilitando ao paciente utilizar cortes de cabelo curtos sem a percepção de possíveis pequenas
       cicatrizes pontuadas.
     </p>

@@ -28,29 +28,29 @@
 
       <ul>
         <li>
-          <a href="tel:3333333333" target="_blank">
+          <a href="tel:+55193255-0065" target="_blank">
             <svg width="32" height="32" viewBox="0 0 32 32">
               <use xlink:href="#tel"></use>
             </svg>
-            <span>33 3333-3333</span>
+            <span>+55 (19) 3255-0065</span>
           </a>
         </li>
 
         <li>
-          <a href="mailto:contato@densita.com.br" target="_blank">
+          <a href="mailto:contato@densitamedicinacapilar.com.br" target="_blank">
             <svg width="32" height="32" viewBox="0 0 32 32">
               <use xlink:href="#mail"></use>
             </svg>
-            <span>contato@densita.com.br</span>
+            <span>contato@densitamedicinacapilar.com.br</span>
           </a>
         </li>
 
         <li>
-          <a href="https://wa.me/+553199999999" target="_blank">
+          <a href="https://wa.me/+5519999830065" target="_blank">
             <svg width="32" height="32" viewBox="0 0 32 32">
               <use xlink:href="#whatsapp"></use>
             </svg>
-            <span>33 3333-3333</span>
+            <span>+55 (19) 99983-0065</span>
           </a>
         </li>
 
@@ -87,12 +87,12 @@
       $result = json_decode($result);
       
       $xx = "1"; foreach ($result->data as $post): if ($xx < 5) { ?>
-      <a href="https://www.instagram.com/densita" target="_blank" class="insta-box insta<?=$xx?>">
+      <a href="https://www.instagram.com/densita_medicinacapilar" target="_blank" class="insta-box insta<?=$xx?>">
         <img src="<?= $post->images->standard_resolution->url ?>" alt="Instagram Densitá" />
       </a>
       <? $xx++; } endforeach ?>
 
-      <a href="https://www.instagram.com/densita" target="_blank" class="insta-box insta-icon">
+      <a href="https://www.instagram.com/densita_medicinacapilar" target="_blank" class="insta-box insta-icon">
         <svg width="32" height="32" viewBox="0 0 32 32">
           <use xlink:href="#instagram"></use>
         </svg>
@@ -102,7 +102,7 @@
 </footer>
 
 <div class="rodape">
-  <p>Todos os direitos reservados a Dentista. Desenvolvido na <a href="https://agenciasalt.com/" target="_blank">Agência
+  <p>Todos os direitos reservados a Densitá. Desenvolvido na <a href="https://agenciasalt.com/" target="_blank">Agência
       Salt</a>.</p>
   <a href="https://sevengestao.com" target="_blank">
     <img src="<?=get_template_directory_URI()?>/img/rsc/seven.png" alt="Seven Gestão" />

@@ -58,23 +58,23 @@
       </nav>
 
       <div class="header-media social-media">
-        <a href="https://instagram.com" target="_blank">
+        <a href="https://instagram.com/densita_medicinacapilar/ " target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#instagram"></use>
           </svg>
         </a>
 
-        <a href="https://facebook.com" target="_blank">
+        <a href="https://facebook.com/densita_medicinacapilar-101196624700518/ " target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#facebook"></use>
           </svg>
         </a>
 
-        <a href="https://youtube.com" target="_blank">
+        <!-- <a href="https://youtube.com" target="_blank">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#youtube"></use>
           </svg>
-        </a>
+        </a> -->
 
         <div class="menu-hamb">
           <span></span>
