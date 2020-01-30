@@ -8,16 +8,14 @@ function especialista() {
 
       btn.setAttribute('disabled', 'disabled');
 
-      console.log(siteURL);
+      popup.classList.add('ativo');
 
-      fetch(`${siteURL}wp-json/wp/v2/pages/${btn.getAttribute('data-href')}`)
+      fetch(`${siteURL}/wp-json/wp/v2/pages/${btn.getAttribute('data-href')}`)
         .then(r => r.json())
         .then(r => {
-          fetch(`${siteURL}wp-json/wp/v2/media/${r.featured_media}`)
+          fetch(`${siteURL}/wp-json/wp/v2/media/${r.featured_media}`)
             .then(img => img.json())
             .then(img => {
-              console.log(img, r);
-
               const popupWrapper = document.createElement('div');
               popupWrapper.classList.add('popup-wrapper');
               popupWrapper.innerHTML = `
@@ -34,7 +32,6 @@ function especialista() {
 
               popupWrapper.appendChild(popupClose);
               popup.appendChild(popupWrapper);
-              popup.classList.add('ativo');
 
               popup.addEventListener('click', e => {
                 if (e.target === e.currentTarget) {
