@@ -1,1 +1,1 @@
-const siteURL = window.location.origin + window.location.pathname;
+const siteURL = window.location.origin;
