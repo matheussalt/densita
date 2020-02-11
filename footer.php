@@ -46,7 +46,7 @@
         </li>
 
         <li>
-          <a href="https://wa.me/+5519999830065" target="_blank">
+          <a href="https://api.whatsapp.com/send?phone=+5519999830065" target="_blank">
             <svg width="32" height="32" viewBox="0 0 32 32">
               <use xlink:href="#whatsapp"></use>
             </svg>
