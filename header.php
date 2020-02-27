@@ -33,6 +33,43 @@
   <?php wp_head(); ?>
   <?php include "funcoesSalt.php";  ?>
 
+  <!-- Global site tag (gtag.js) - Google Ads: 664967390 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-664967390"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'AW-664967390');
+  </script>
+
+  <!-- Event snippet for Carregamento de Página conversion page -->
+  <script>
+  gtag('event', 'conversion', {
+    'send_to': 'AW-664967390/BMj-CPiMzsQBEN6xir0C'
+  });
+  </script>
+
+  <!-- Event snippet for Conversão - clique conversion page
+  In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function() {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-664967390/r124COOX3sQBEN6xir0C',
+      'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+
 </head>
 
 <body <?php body_class(); ?>>
