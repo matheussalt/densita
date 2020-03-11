@@ -46,13 +46,6 @@
   gtag('config', 'AW-664967390');
   </script>
 
-  <!-- Event snippet for Carregamento de Página conversion page -->
-  <script>
-  gtag('event', 'conversion', {
-    'send_to': 'AW-664967390/BMj-CPiMzsQBEN6xir0C'
-  });
-  </script>
-
   <!-- Event snippet for Conversão - clique conversion page
   In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
   <script>
@@ -69,7 +62,6 @@
     return false;
   }
   </script>
-
 </head>
 
 <body <?php body_class(); ?>>
