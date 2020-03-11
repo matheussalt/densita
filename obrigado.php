@@ -14,7 +14,7 @@ gtag('event', 'conversion', {
   'send_to': 'AW-664967390/BMj-CPiMzsQBEN6xir0C'
 });
 
-window.location.href = <?=site_url()?>
+window.location.href = '<?=site_url()?>'
 </script>
 
 
